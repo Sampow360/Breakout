@@ -1,4 +1,9 @@
 // This object contains all the Phaser configurations to load our game
+import Phaser from 'phaser';
+
+// Import stylesheets
+import './style.css';
+
 const config = {
   type: Phaser.AUTO,
   parent: 'game',
@@ -23,3 +28,9 @@ const config = {
 
 // Create the game instance
 const game = new Phaser.Game(config);
+
+function preload() { }
+
+function create() { }
+
+function update() { }
